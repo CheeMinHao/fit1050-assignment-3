@@ -47,7 +47,7 @@
 }
 
 .logo-image {
-    height: 5em;
+    height: 3em;
     margin-right: 10px;
     margin-bottom: 10px;
 }
@@ -55,4 +55,51 @@
 
 .custom-btn-font {
     padding: 10px 15px;
+}
+
+.custom-input {
+    width: 80%;
+    height: 3rem;
+}
+
+.custom-input-section {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #0095DA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.search-icon:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+    .custom-container {
+        margin-top: 3.8rem;
+    }
+
+    .logo-image {
+        height: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 563px) {
+    .custom-font-sizer {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .custom-container {
+        margin-top: 5rem;
+        padding-left: 2rem;
+        padding-right: 2rem
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .logo-image {
+        height: 2.5rem;
+    }
 }

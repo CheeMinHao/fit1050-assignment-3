@@ -174,7 +174,7 @@ strong {
 .cd-words-wrapper {
   display: inline-block;
   position: relative;
-  text-align: left;
+  text-align: center;
 }
 
 .cd-words-wrapper b {
@@ -724,7 +724,7 @@ strong {
   border: 0;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1046px) {
   .dropdown:hover .dropdown-menu {
     opacity: 1;
     margin-top: 0;
@@ -858,7 +858,7 @@ strong {
   pointer-events: none;
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1046px) {
   .hero-section-full-height {
     height: 85vh;
   }
@@ -953,10 +953,6 @@ strong {
 -----------------------------------------*/
 .featured-image {
   border-radius: var(--border-radius-medium);
-}
-
-.featured-block {
-  padding: 20px;
 }
 
 
