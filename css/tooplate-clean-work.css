@@ -156,7 +156,7 @@ strong {
   pointer-events: none;
   width: 100%;
   height: 100%;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .testimonial-section .section-overlay {
@@ -453,10 +453,6 @@ strong {
   display: inline-block;
 }
 
-.button--atlas:hover > span {
-  opacity: 0;
-}
-
 .marquee {
   position: absolute;
   top: 0;
@@ -479,10 +475,8 @@ strong {
   opacity: 0;
 }
 
-.button--atlas:hover .marquee__inner {
-  animation-play-state: running;
+.button--atlas:hover {
   opacity: 1;
-  transition-duration: 0.4s;
 }
 
 .marquee span {
@@ -1073,10 +1067,6 @@ strong {
   TESTIMONIAL              
 -----------------------------------------*/
 .testimonial-section {
-  background-image: url('../images/coffe-shop-with-wooden-walls-unfocused.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   position: relative;
 }
 
